@@ -1,0 +1,65 @@
+/* Reset styles or any global styles go here */
+
+/* Skip to Main Content Link Styles */
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    /* Add styles to make it visually hidden but accessible */
+    color: transparent; /* Hide text content visually */
+    background-color: transparent; /* Make the link background transparent */
+    border: none; /* Remove border */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Comment out existing styling for the li element */
+  /* li {
+    existing styles;
+  } */
+  
+  /* Change the nav element */
+  nav {
+    display: inline-block;
+    width: 80%;
+  }
+  
+  /* Style only the image in the nav */
+  nav img {
+    width: 10%;
+  }
+  
+  /* Style the grid class */
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+  }
+  
+  /* Style images in the grid class */
+  .grid img {
+    width: 100%;
+  }
+  
+  /* Adjust the grid class */
+  .grid {
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+  
+  /* Style the flex class */
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Card Styles */
+  .card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+  }
+  
